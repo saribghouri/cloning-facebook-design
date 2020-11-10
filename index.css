@@ -74,6 +74,7 @@ h1 {
 }
 .email {
   margin-right: 20px;
+  margin-left: 10px;
 }
 
 .email label {
@@ -127,20 +128,85 @@ h1 {
 
 .email-text {
   width: 540px;
-  margin-top: 30px;
+  margin-top: 15px;
   height: 50px;
   border-radius: 6px;
   border: groove;
 }
 
 .name-box {
-  width: 268px;
+  width: 258px;
   margin-top: 30px;
   height: 50px;
   border-radius: 6px;
   border: groove;
+  margin-right: 21px;
 }
 input::-webkit-input-placeholder {
   font-size: 20px;
   line-height: 3;
+  padding: 20px;
+}
+.date-class {
+  width: 85px;
+  height: 39px;
+  font-size: 17px;
+  margin-top: 13px;
+  border: 1px groove rgb(12, 138, 241);
+}
+.h2-hd {
+  color: black;
+  font-size: 20px;
+  margin-top: 18px;
+}
+.date-prg {
+  color: rgb(47, 88, 165);
+  width: 85%;
+}
+.prg-div {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 13px;
+  width: 41%;
+}
+.main-date-div {
+  display: flex;
+  font-size: 17px;
+}
+.mail-slt {
+  color: black;
+  border: groove;
+}
+.gender-div {
+  color: black;
+  color: black;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.end-prg {
+  width: 52%;
+  font-size: 16px;
+  color: gray;
+  margin-top: 30px;
+}
+
+.button {
+  width: 30%;
+  height: 49px;
+  border-radius: 7px;
+  background-color: rgb(64, 168, 64);
+  margin-top: 46px;
+  font-size: 27px;
+  color: white;
+}
+.last-hd {
+  color: gray;
+  font-size: 17px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.last-hd a {
+  text-decoration: none;
+  color: rgb(37, 94, 180);
 }
